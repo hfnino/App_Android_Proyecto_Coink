@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">coink</string>
+    <string name="mensaje_PCPITNC">Para comenzar, por favor ingresa  <b>tu número celular.</b></string>
+    <string name="mensaje_ANSADT">Ahora necesitamos saber algunos datos tuyos</string>
+    <string name="mensaje_NC">NÚMERO CELULAR</string>
+    <string name="format_num_cel">(XXX - XXXXXXX)</string>
+    <string name="mensaje_DDC">DATOS DE CUENTA</string>
+    <string name="mensaje_CSTD">¿CUÁLES SON TUS DATOS?</string>
+    <string name="mensaje_DDI">Documento de identidad</string>
+    <string name="mensaje_TDD">Tipo de documento</string>
+    <string name="ingresa">INGRESA</string>
+    <string name="registrarse">REGÍSTRARSE</string>
+    <string name="slogan">LA ALCANCÍA QUE SIEMPRE TE ACOMPAÑA</string>
+    <string name="mensaje_NDD">Número de documento</string>
+    <string name="mensaje_FEXD">Fecha de expedición del documento</string>
+    <string name="mensaje_FNC">Fecha de nacimiento</string>
+    <string name="mensaje_GEN">Genero</string>
+    <string name="mensaje_CTC">Configura tu cuenta</string>
+    <string name="mensaje_CE">Correo electrónico</string>
+    <string name="mensaje_CCE">Confirmar correo electrónico</string>
+    <string name="mensaje_PSG">PIN de seguridad</string>
+    <string name="mensaje_CPSG">Confirmar PIN de seguridad</string>
+    <string name="mensaje_FNR">FINALIZAR</string>
+    <string name="mensaje_EMCDSPDC">ESTAS MUY CERCA DE SER PARTE DE COINK.</string>
+    <string name="mensaje_SENQLDEC">Solo es necesario que leas detenidamente el contrato que se encuentra al final de esta pantallay lo aceptes.</string>
+    <string name="mensaje_LMI">LO MÁS IMPORTANTE</string>
+    <string name="mensaje_LMIP1">Para la apertura del Depósito de Bajo Monto en COINK debes ser una persona natural que de acuerdo con nuestra legislación vigente te encuentres en plena capacidad para adquirir derechos y contraer obligaciones.</string>
+    <string name="mensaje_LMIP2">Abrirás una cuenta COINK de Bajo Monto la cual te permitirá tener un saldo hasta por 8 salarios mínimos en el mes y realizar débitos por el mismo valor. Si deseas sobrepasar estos límites debes solicitarnos la apertura de un Depósito Ordinario COINK Persona Natural.</string>
+    <string name="mensaje_LMIP3">Solo puedes tener una cuenta COINK de Bajo Monto y podrás utilizar tu dispositivo móvil para consultar tu saldo, tus movimientos, realizar tus transacciones y administrar tu cuenta.</string>
+    <string name="mensaje_LMIP4">Recuerda que no necesitas saldo mínimo ni monto inicial para su apertura.</string>
+    <string name="mensaje_LTC">Lee tu contrato</string>
+    <string name="mensaje_AceptarContrato">He leído ya acepto el contrato</string>
+    <string name="mensaje_Aceptar">ACEPTAR</string>
+    <string name="mensaje_BAC">¡Bienvenido a Coink!</string>
+    <string name="mensaje_CCEML">¡Cuenta creada exitosamente, tu marrano ya está listo para que empieces a ahorrar!</string>
+    <string name="mensaje_CONT">CONTINUAR</string>
+    <string name="mensaje_CS">Cerrar Sesíón</string>
+    <string name="mensaje_TDR">Tus Datos Registrados:</string>
+    <string name="num_cel">Número Celular</string>
+
+
+
+    <string name="mensaje_SIG">SIGUIENTE</string>
+</resources>

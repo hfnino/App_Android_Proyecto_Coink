@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background ="@color/gris_40"
+    tools:context=".ui.view.BienvenidaActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:elevation="30dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewCoinkRegalo"
+                android:layout_width="140dp"
+                android:layout_height="139dp"
+                android:layout_marginTop="20dp"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_coink_1_2x" />
+
+            <TextView
+                android:id="@+id/textView_TDRS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/mensaje_TDR"
+                android:textColor="@color/verde_2"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewCoinkRegalo" />
+
+            <TextView
+                android:id="@+id/textView_Num_Cel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/num_cel"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_TDRS" />
+
+            <TextView
+                android:id="@+id/textView_TDD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_TDD"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_Num_Cel" />
+
+            <TextView
+                android:id="@+id/textView_NDD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_NDD"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_TDD" />
+
+            <TextView
+                android:id="@+id/textView_FEXD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_FEXD"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_NDD" />
+
+            <TextView
+                android:id="@+id/textView_FDN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_FNC"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_FEXD" />
+
+            <TextView
+                android:id="@+id/textView_GEN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_GEN"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_FDN" />
+
+            <TextView
+                android:id="@+id/textView_CE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_CE"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_GEN" />
+
+            <TextView
+                android:id="@+id/textView_PSG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_PSG"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_CE" />
+
+            <TextView
+                android:id="@+id/textView_AC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="5dp"
+                android:textAlignment="textStart"
+                android:fontFamily="@font/montserrat_thin"
+                android:text="@string/mensaje_AceptarContrato"
+                android:textColor="@color/gris_80"
+                android:textSize="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_PSG" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCerrarApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/verde_1"
+                android:elevation="10dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/mensaje_CS"
+                android:textColor="@color/verde_2"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:padding="5dp"
+                app:icon="@drawable/ic_power"
+                app:iconSize="28dp"
+                app:iconGravity="textStart"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginBottom="13dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView_AC"
+                app:layout_constraintBottom_toBottomOf="parent"
+                style="@style/Widget.Material3.Button.ElevatedButton"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

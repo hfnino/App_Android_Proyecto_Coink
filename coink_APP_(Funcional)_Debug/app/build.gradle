@@ -35,6 +35,10 @@ android {
     buildFeatures{
         viewBinding = true   //habilitamos el proyecto para poder usar el View BInding
     }
+
+    lintOptions{
+        checkReleaseBuilds false // Nesesario para generar el apk en Release
+    }
 }
 
 dependencies {
